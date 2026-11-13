@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AURA Drawing Class | Aishwarya Sreenivas – Artist &amp; Drawing Teacher</title>
+<meta name="description" content="AURA Drawing Class is the artist portfolio and drawing academy of Aishwarya Sreenivas: drawing lessons for LKG to 10th standard, plus pencil, acrylic, watercolor and oil pastel artwork.">
+<meta name="author" content="Aishwarya Sreenivas">
+<meta name="theme-color" content="#F8F5EF">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AURA Drawing Class – Where Creativity Finds Its Expression.">
+<meta property="og:description" content="Artist portfolio and drawing academy of Aishwarya Sreenivas.">
+<meta property="og:image" content="assets/images/hero/hero-artwork.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23B9795B'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23F8F5EF' font-family='Georgia,serif'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"AURA Drawing Class","description":"Drawing academy for LKG to 10th standard by artist Aishwarya Sreenivas.","founder":{"@type":"Person","name":"Aishwarya Sreenivas","jobTitle":"Artist and Drawing Teacher"},"telephone":"+917994855769","email":"artbyaishwaryasreenivas@gmail.com","sameAs":["https://www.instagram.com/art_by_aishwarya_sreenivas/"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top" id="top">
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="AURA Drawing Class, home">AURA <span>Drawing Class</span></a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><i></i><i></i></button>
+    <nav id="nav" aria-label="Main">
+      <a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#academy">Academy</a><a href="#achievements">Achievements</a><a href="#contact" class="navcta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section id="home" class="hero">
+  <svg class="flourish" viewBox="0 0 800 600" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><path d="M-20 420C120 300 200 520 340 400S520 150 640 260 780 420 840 300"/></svg>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Artist · Drawing Teacher · Software Engineer</p>
+      <h1>AURA<br>Drawing Class</h1>
+      <p class="tagline">Where Creativity Finds Its Expression.</p>
+      <p class="lead">The portfolio and drawing academy of Aishwarya Sreenivas, with lessons for children from LKG to 10th standard.</p>
+      <div class="btns">
+        <a class="btn solid" href="#portfolio">View portfolio</a>
+        <a class="btn" href="#academy">Explore the academy</a>
+        <a class="btn ghost" data-wa href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="frame tall" data-label="Add hero artwork: assets/images/hero/hero-artwork.jpg"><img src="assets/images/hero/hero-artwork.jpg" alt="Featured artwork by Aishwarya Sreenivas" fetchpriority="high" decoding="async" onerror="this.closest('.frame').classList.add('missing')"></div>
+      <div class="frame round" data-label="Profile photo"><img src="assets/images/profile/aishwarya-sreenivas-profile.jpg" alt="Portrait of Aishwarya Sreenivas" decoding="async" onerror="this.closest('.frame').classList.add('missing')"></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="cream">
+  <div class="wrap about-grid">
+    <div class="frame portrait rv" data-label="Add profile photo: assets/images/profile/aishwarya-sreenivas-about.jpg"><img src="assets/images/profile/aishwarya-sreenivas-about.jpg" alt="Aishwarya Sreenivas at work" loading="lazy" decoding="async" onerror="this.closest('.frame').classList.add('missing')"></div>
+    <div class="rv">
+      <p class="eyebrow">About the artist</p>
+      <h2 id="about-name">Aishwarya Sreenivas</h2>
+      <p class="role" id="about-role"></p>
+      <div id="bio" class="bio"></div>
+      <a class="btn solid" href="#contact">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="wrap">
+    <div class="head rv"><p class="eyebrow">Art portfolio</p><h2>Selected work</h2><p class="lead">Browse by medium and tap any piece to view it full size.</p></div>
+    <div class="filters" id="filters" role="group" aria-label="Filter artwork by category"></div>
+    <div class="grid" id="grid" aria-live="polite"></div>
+  </div>
+</section>
+
+<section id="academy" class="cream">
+  <div class="wrap">
+    <div class="head rv"><p class="eyebrow">Drawing academy</p><h2>Drawing lessons for every age and level</h2><p class="lead">Structured, encouraging classes from LKG to 10th standard, taught step by step from first lines to confident, finished artwork.</p></div>
+    <h3 class="sub rv">By class</h3>
+    <div class="cards" id="grades"></div>
+    <h3 class="sub rv">By level</h3>
+    <div class="cards three" id="levels"></div>
+    <div class="cta-band rv"><p>Ask about batches, timings and fees.</p><a class="btn solid" href="#contact">Enquire now</a></div>
+  </div>
+</section>
+
+<section id="achievements">
+  <div class="wrap">
+    <div class="head rv"><p class="eyebrow">Achievements and exhibitions</p><h2>Recognition and showcases</h2></div>
+    <ol class="timeline" id="timeline"></ol>
+    <h3 class="sub rv">Exhibition gallery</h3>
+    <div class="grid small" id="exhibitions"></div>
+    <h3 class="sub rv">Certificates</h3>
+    <div class="grid small" id="certificates"></div>
+  </div>
+</section>
+
+<section id="contact" class="dark">
+  <div class="wrap contact-grid">
+    <div class="rv">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s start drawing together</h2>
+      <p class="lead">Enquire about classes, commissions or collaborations. Replies usually come fastest on WhatsApp.</p>
+      <ul class="links">
+        <li><span>Phone</span><a data-tel href="#"></a></li>
+        <li><span>WhatsApp</span><a data-wa href="#" target="_blank" rel="noopener">Start a chat</a></li>
+        <li><span>Email</span><a data-mail href="#"></a></li>
+        <li><span>Instagram</span><a data-ig href="#" target="_blank" rel="noopener">@art_by_aishwarya_sreenivas</a></li>
+      </ul>
+    </div>
+    <form id="enq" class="rv" novalidate>
+      <label>Your name<input name="name" required autocomplete="name"></label>
+      <label>Phone<input name="phone" type="tel" required autocomplete="tel"></label>
+      <label>Student’s class<select name="grade" required><option value="">Choose a class</option><option>LKG – UKG</option><option>1st – 4th</option><option>5th – 7th</option><option>8th – 10th</option><option>Not sure yet</option></select></label>
+      <label>Message<textarea name="message" rows="4" placeholder="Tell us what you’d like to learn"></textarea></label>
+      <div class="btns"><button class="btn solid" type="submit">Send on WhatsApp</button><button class="btn ghost" type="button" id="mail">Send by email</button></div>
+      <p class="note">This opens WhatsApp or your email app with your message ready to send. Nothing is stored on this website.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><p>© <span id="yr"></span> AURA Drawing Class · Aishwarya Sreenivas</p><a href="#top">Back to top</a></div></footer>
+
+<dialog id="lb" aria-label="Image viewer">
+  <button class="x" aria-label="Close">×</button>
+  <button class="nav prev" aria-label="Previous image">‹</button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="nav next" aria-label="Next image">›</button>
+</dialog>
+
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
